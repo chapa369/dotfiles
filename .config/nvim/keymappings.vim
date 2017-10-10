@@ -13,3 +13,7 @@ map <Space>s [vimshell]
 nnoremap <Space>n :cn<CR>
 nnoremap <Space>p :cp<CR>
 nnoremap <Space>e :ccl<CR>
+
+" mappings for the terminal mode
+tnoremap <ESC> <C-\><C-n>
+tnoremap <C-[> <C-\><C-n>
