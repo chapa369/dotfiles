@@ -42,7 +42,6 @@ repo = 'Shougo/deol.nvim'
 on_cmd = 'Deol'
 on_source = ['denite.nvim']
 hook_add = 'call coil398#init#deol#hook_add()'
-hook_source = 'call coil398#init#deol#hook_source()'
 
 [[plugins]]
 repo = 'Shougo/vimfiler.vim'
