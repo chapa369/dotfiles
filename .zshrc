@@ -167,7 +167,7 @@ autoload -Uz history-search-end
 zle -N history-beginning-search-backward-end history-search-end
 zle -N history-beginning-search-forward-end history-search-end
 bindkey "^p" history-beginning-search-backward-end
-bindkey "^b" history-beginning-search-forward-end
+bindkey "^f" history-beginning-search-forward-end
 
 # vim keybind
 # bindkey -v
@@ -266,3 +266,6 @@ alias runhaskell='stack runhaskell --'
 alias relogin='exec $SHELL -l'
 alias activate="source $PYENV_ROOT/versions/anaconda3-4.2.0/bin/activate"
 alias activate="source $PYENV_ROOT/versions/anaconda3-4.2.0/bin/activate"
+
+# 補完機能Incremental Completion on zshを有効にする
+source .zsh/plugin/incr*.zsh
