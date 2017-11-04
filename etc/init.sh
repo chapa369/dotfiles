@@ -1,8 +1,8 @@
 #!/bin/sh
 
 DOT_DIRECTORY="${HOME}/dotfiles"
-DOT_TARBALL="https://github.com/coil398/dotfiles/tarball/master"
-GIT_URL="https://github.com/coil398/dotfiles"
+DOT_TARBALL="https://github.com/chapa369/dotfiles/tarball/master"
+GIT_URL="https://github.com/chapa369/dotfiles"
 
 if [ ! -d ${DOT_DIRECTORY} ];then
     echo 'Downloading dotfiles...'
