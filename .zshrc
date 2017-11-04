@@ -225,7 +225,7 @@ fi
 source $ZPLUG_HOME/init.zsh
 source $HOME/.zplugrc
 
-export DOT_REPO="https://github.com/coil_msp123/dotfiles.git"
+export DOT_REPO="https://github.com/chapa369/dotfiles.git"
 export DOT_DIR="$HOME/dotfiles"
 
 export PYENV_ROOT="$HOME/.pyenv"
