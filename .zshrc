@@ -148,7 +148,7 @@ zstyle ':zle:*' word-chars "_-./;@"
 zstyle ':zle:*' word-style unspecified
 
 # プロンプトを2行で表示、時刻を表示
-PROMPT="%(?.%{${fg[green]}%}.%{${fg[red]}%})%n${reset_color}@${fg[blue]}%m${reset_color}(%*%) %~
+PROMPT="%(?.%{${fg[green]}%}.%{${fg[red]}%})%n${reset_color}@${fg[cyan]}%m${reset_color}(%*%) %~
 %# "
 
 # 補完後、メニュー選択モードになり左右キーで移動が出来る
@@ -264,3 +264,5 @@ alias ghci='stack ghci --'
 alias runhaskell='stack runhaskell --'
 
 alias relogin='exec $SHELL -l'
+alias activate="source $PYENV_ROOT/versions/anaconda3-4.2.0/bin/activate"
+alias activate="source $PYENV_ROOT/versions/anaconda3-4.2.0/bin/activate"
