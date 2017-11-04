@@ -1,3 +1,3 @@
-My best dotfiles.
+My first dotfiles.
 
-    curl -fsSL https://raw.githubusercontent.com/coil398/dotfiles/master/etc/init.sh | sh
+    curl -fsSL https://raw.githubusercontent.com/chapa369/dotfiles/master/etc/init.sh | sh
