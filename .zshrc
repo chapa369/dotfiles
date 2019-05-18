@@ -10,7 +10,8 @@ export PATH="$HOME/.tmux/plugins:$PATH"
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_LOCAL_HOME="$HOME/.local"
-
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 fpath=($HOME/.zsh/completion $fpath)
 
 # os type
@@ -264,8 +265,13 @@ alias ghci='stack ghci --'
 alias runhaskell='stack runhaskell --'
 
 alias relogin='exec $SHELL -l'
-alias activate="source $PYENV_ROOT/versions/anaconda3-4.2.0/bin/activate"
-alias activate="source $PYENV_ROOT/versions/anaconda3-4.2.0/bin/activate"
 
 # 補完機能Incremental Completion on zshを有効にする
 source .zsh/plugin/incr*.zsh
+
+### Added by IBM Cloud CLI
+source /usr/local/Bluemix/bx/zsh_autocomplete
+
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
